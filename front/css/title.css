@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(100, 100, 94);
+}
+h1, h4{
+    color: rgba(250, 127, 127, 0.589);
+    text-decoration: underline;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: rgb(247, 204, 204);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
