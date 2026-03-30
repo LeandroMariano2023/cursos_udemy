@@ -1,3 +1,4 @@
+// exercício 2
 const Challenger = () => {
     const A = 10;
     const B = 20;
