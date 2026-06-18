@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Mao from "./assets/Mao.jpg";
+import ManegeData from "./components/ManegeData";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Avançando em React</h1>
+      <div>
+        {/* imagem em public */}
+        <img src="/paisagem.jpg" alt="paisagem" width="500" height="300" />
+      </div>
+      <div>
+        {/* imagem em assets */}
+        <img src={Mao} alt="Mão" width="500" height="300" />
+      </div>
+      <ManegeData />
     </div>
   );
 }
